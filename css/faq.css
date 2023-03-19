@@ -1,5 +1,7 @@
 .main-content__faq {
   border-bottom: 1px solid gray;
+  width: 95%;
+  margin: 0 auto;
 }
 .main-content__faq__list {
   position: relative;

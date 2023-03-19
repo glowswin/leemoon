@@ -32,8 +32,24 @@ body {
   color: white;
   border: 1px solid coral;
 }
+header .fixed {
+  position: fixed;
+}
 .header-menu {
   display: none;
+  position: relative;
+  z-index: 99;
+  background-color: white;
+}
+.header-cont__momenu {
+  display: block;
+  font-size: 13px;
+  background-color: #e8e8e8;
+}
+.header-cont__momenu__menu {
+  border-bottom: 1px solid gray;
+  line-height: 45px;
+  padding: 0 20px;
 }
 main {
   padding-top: 60px;
@@ -100,8 +116,12 @@ footer {
     right: 10px;
     font-size: 13px;
   }
+  .header-cont__momenu {
+    display: none;
+  }
   .header-menu {
     display: block;
+    width: 100%;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
   }
@@ -161,6 +181,9 @@ footer {
     top: 36px;
     right: 10px;
     font-size: 13px;
+  }
+  .header-cont__momenu {
+    display: none;
   }
   .header-menu {
     display: block;
